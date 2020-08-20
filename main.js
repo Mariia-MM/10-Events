@@ -1,7 +1,3 @@
-// function playAudio() {
-//   audio.play();
-// }
-
 let butQ = document.getElementById(`Q`).addEventListener("click", playAudio1);
 butQ = document.addEventListener("keydown", function () {
   if (event.keyCode === 81) {
@@ -12,6 +8,9 @@ butQ = document.addEventListener("keydown", function () {
 const audQ = document.getElementById("sound1");
 function playAudio1() {
   audQ.play();
+}
+function pauseAudio1() {
+  audQ.pause();
 }
 
 let butW = document.getElementById(`W`).addEventListener("click", playAudio2);

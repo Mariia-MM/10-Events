@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  background-image: url(files/img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  position: flex;
+  margin: 100px 50px;
+  height: 100px;
+  width: 100px;
+  background-color: #008080;
+}
